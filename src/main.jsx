@@ -4,11 +4,14 @@ import './index.css'
 import App from './App.jsx'
 import { App2 } from './UseRef.jsx'
 import { CounterApp } from './CounterWithContextAPI.jsx'
+import { RecoiledApp } from './JotaiCounter.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <>
       {/* <App /> */}
-      <CounterApp/>
-  </StrictMode>
+      {/* <CounterApp/> */}
+      <RecoiledApp/>
+      
+  </>
 
 )
